@@ -1,26 +1,16 @@
-h1{
-    font-size: 20px;
-    font-weight: 500;
-    color: rgba(7, 7, 7, 0.5);
-  font-family: 'Times New Roman';
+section {
+    height: 80vh;
+    border: 1px solid black;
 }
-div{
-    width: 100%;
-    max-width: 200px;
-    height: 100vh;
-    border: 1px solid black ;
+
+p {
+color: blue;
+}
+
+#title{
+    color: black;
 }
 
 .red {
     color: red;
-}
-
-.blue 
-{
-color: blue;
-}
-
-section {
-height: 80vh;
-border: 1px solid black;
 }
