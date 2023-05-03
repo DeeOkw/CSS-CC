@@ -10,3 +10,17 @@ div{
     height: 100vh;
     border: 1px solid black ;
 }
+
+.red {
+    color: red;
+}
+
+.blue 
+{
+color: blue;
+}
+
+section {
+height: 80vh;
+border: 1px solid black;
+}
