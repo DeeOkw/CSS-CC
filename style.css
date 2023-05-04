@@ -1,3 +1,6 @@
+body{
+    height: 200vh;
+}
 div{ 
     height: 200px;
     border: 3px solid black;
@@ -5,7 +8,8 @@ div{
 
 .red {
     background-color: red;
-    position: relative;
+    position: sticky;
+    top:100px;
     width: 100%;
     box box-sizing: border-box;
 }
