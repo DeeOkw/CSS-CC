@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Lato:ital,wght@0,400;0,700;1,700&family=Playfair+Display&display=swap');
 
 *{
-    font-family:'Lato', sans-serif; 
+    font-family:'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -43,12 +47,12 @@ li {
     max-width: 800px;
     margin: 0 auto;
 }
-section:nth-child(even) {
+section:nth-child(odd) {
     background: #f8f8f8;
 }
 
 .section__title {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .text--purple {
@@ -97,6 +101,22 @@ font-weight: 700;
     font-weight: bold;
 }
 
+.wave {
+    display: inline-block;
+    animation: animate-wave 500ms infinite ease-in-out;
+}
+
+@keyframes animate-wave {
+    0% {
+        transform: rotate(0);
+      }
+      50% {
+        transform: rotate(30deg);
+      }
+      100% {
+        transform: rotate(0);
+}
+}
 
 /* ABOUT ME */
 
@@ -116,7 +136,7 @@ flex-direction: column;
     align-items: center;
     max-width: 600px;
     margin: 0 auto;
-    text-align: center;
+    text-align: justify;
 }
 
 .about-me__picture--mask {
@@ -125,7 +145,7 @@ height: 100px;
 border-radius:50% ;
 overflow: hidden;
 box-shadow: 0 8px 16px rgba( 0 0 0.16);
-margin-bottom: 28px;
+margin-bottom: 24px;
 }
 
 .about-me__picture {
@@ -137,7 +157,8 @@ padding-top: 8px;
 }
 
 .about-me__info--title {
-    margin-top: 16px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .about-me__info--para {
@@ -149,7 +170,7 @@ padding-top: 8px;
     font-size: 20px;
     color: #242424;
     text-decoration: none;
-    padding: 0 16px ;
+    padding: 0 4px ;
 }
 
 .about-me__image--container{
