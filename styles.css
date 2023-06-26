@@ -371,7 +371,7 @@ transition: all 500ms;
 .project__description--sub-title,
 .project__description--para,
 .project__description--link {
-    text-align: left;
+    text-align: justify;
     color: #fff;
 }
 
@@ -474,7 +474,6 @@ footer{
    
     }
     .project__description--sub-title {
-        text-align: center;
-        margin: 12px;   
+        text-align: left;
     }
  
